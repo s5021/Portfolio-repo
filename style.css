@@ -211,3 +211,24 @@ body {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
   }
   
+  .resume-buttons {
+    margin-top: 20px;
+  }
+  
+  .resume-buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 25px;
+    background: white;
+    color: #333;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border: 2px solid #fff;
+  }
+  
+  .resume-buttons a:hover {
+    background-color: #ddd;
+  }
+  
